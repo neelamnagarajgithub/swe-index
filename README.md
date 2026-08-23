@@ -195,10 +195,18 @@ Independently organized, MLH-sanctioned university hackathons — competitive to
 
 ---
 
-## Contributing
+## 🤝 Contributing
+Contributions are welcome! If you'd like to add a new problem, improve existing content, or fix errors:
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request
 
-Found a broken link, an outdated date, or a program that deserves a spot here? PRs welcome.
+Please make sure to update Readme files and documentation as appropriate.
 
-## License
+---
 
-Free to use, share, and remix.
+<p align="center">
+  <i>If you find this resource helpful, please give it a star and share it with others!</i>
+</p>
