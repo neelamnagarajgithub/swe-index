@@ -1,21 +1,20 @@
-# Software-Engineer-Hackathons-and-Hiring-and-OpenSource
+# SWE Index - Hackathons, Hiring and OpenSource Oppurtunities
 
-A curated, living list of hackathons, open-source programs, fresher hiring drives, and job platforms — built for software engineers and students trying to break in, level up, or land their next role.
+A curated, living list of hackathons, open-source programs, fresher hiring drives, and job platforms . built for software engineers and students trying to break in, level up, or land their next role.
 
----
 
 ## Table of Contents
 
 - [Hackathon Aggregator Platforms](#hackathon-aggregator-platforms)
-- [Flagship Company & Government Hackathons](#flagship-company--government-hackathons)
+- [Flagship Company & Government Hackathons](#flagship-company-government-hackathons)
 - [Elite Student-Run Hackathons (US/Canada)](#elite-student-run-hackathons-uscanada)
-- [Blockchain / Web3 Hackathons](#blockchain--web3-hackathons)
-- [Data Science & ML Competition Platforms](#data-science--ml-competition-platforms)
+- [Blockchain / Web3 Hackathons](#blockchain-web3-hackathons)
+- [Data Science & ML Competition Platforms](#data-science-ml-competition-platforms)
 - [Open Source Programs](#open-source-programs)
 - [Mass Hiring Drives (India)](#mass-hiring-drives-india)
 - [Job Application Platforms](#job-application-platforms)
 
----
+
 
 ## Hackathon Aggregator Platforms
 
@@ -35,7 +34,6 @@ Platforms that list many hackathons/contests from other organizers — start her
 | DoraHacks | [dorahacks.io](https://dorahacks.io/) | Global | Hosts + funds | Web3/crypto hackathon + grants platform |
 | Hack Club | [hackathons.hackclub.com](https://hackathons.hackclub.com/) | Global (teen-focused) | Community + events | High-schooler hackathons, "Hack Club" grants |
 
----
 
 ## Flagship Company & Government Hackathons
 
@@ -67,7 +65,6 @@ Platforms that list many hackathons/contests from other organizers — start her
 
 > ⚠️ Rows without a stable public URL are marked "Search [name]" — these companies frequently move or archive event pages between cycles.
 
----
 
 ## Elite Student-Run Hackathons (US/Canada)
 
@@ -83,7 +80,7 @@ Independently organized, MLH-sanctioned university hackathons — competitive to
 | Hack the North | [hackthenorth.com](https://hackthenorth.com/) | Waterloo students | Annual, ~September | College students, application-based | Prizes + sponsor swag; Canada's largest hackathon | In-person, Waterloo, Canada |
 | Hack Club events | [hackathons.hackclub.com](https://hackathons.hackclub.com/) | Hack Club (teen-run nonprofit) | Rolling, year-round | High schoolers | Grants, hardware, travel stipends for organizers/participants | In-person + online, global |
 
----
+
 
 ## Blockchain / Web3 Hackathons
 
@@ -93,7 +90,7 @@ Independently organized, MLH-sanctioned university hackathons — competitive to
 | ETHIndia | [ethindia.co](https://ethindia.co/) | ETHIndia community | Annual, ~Nov–Dec | Developers, application/invite-based | Crypto/cash prize pools (varies) | In-person, India |
 | DoraHacks (BUIDL platform) | [dorahacks.io](https://dorahacks.io/) | DoraHacks | Rolling — hosts many hackathons + grant programs | Developers | Grants + prize pools (varies by hackathon) | Online, global |
 
----
+
 
 ## Data Science & ML Competition Platforms
 
@@ -103,7 +100,7 @@ Independently organized, MLH-sanctioned university hackathons — competitive to
 | DrivenData | [drivendata.org/competitions](https://www.drivendata.org/competitions/) | Social-impact data science challenges | Ongoing rolling competitions | Cash prizes (varies) |
 | HackerEarth Challenges | [hackerearth.com/challenges](https://www.hackerearth.com/challenges/) | Coding + ML challenges, often recruiter-linked | Ongoing rolling competitions | Cash prizes + hiring opportunities |
 
----
+
 
 ## Open Source Programs
 
