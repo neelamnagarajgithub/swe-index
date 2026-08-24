@@ -3,6 +3,7 @@ import path from "path";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Star, GitPullRequest } from "lucide-react";
+import Image from "next/image";
 
 function slugify(text: string) {
   return text
@@ -13,7 +14,7 @@ function slugify(text: string) {
 }
 
 const REPO_URL =
-  "https://github.com/neelamnagarajgithub/Software-Engineer-Hackathons-and-Hiring-and-OpenSource";
+  "https://github.com/neelamnagarajgithub/swe-index";
 
 /* Sidebar nav, grouped to mirror the README's own section order:
    Learn & Build → Practice & Prepare → Find Opportunities → Apply → Community */
@@ -72,8 +73,16 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-white/[0.08] bg-[#08090a]/80 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 sm:px-8">
           <a href="#" className="flex items-center gap-3">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-sm font-black text-black">
-              S
+
+
+            <div className="flex h-14 w-14 items-center justify-center">
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={45}
+                height={45}
+                className="rounded-lg object-contain"
+              />
             </div>
 
             <div className="hidden sm:block">
