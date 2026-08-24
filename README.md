@@ -5,14 +5,154 @@ A curated, living list of hackathons, open-source programs, fresher hiring drive
 
 ## Table of Contents
 
+**Learn & Build Fundamentals**
+- [DSA Practice Sheets & Resources](#dsa-practice-sheets--resources)
+- [CS Fundamentals (OS / DBMS / CN / OOP)](#cs-fundamentals-os--dbms--cn--oop)
+- [System Design Resources](#system-design-resources)
+- [Aptitude & Verbal Reasoning (Service-Company Drives)](#aptitude--verbal-reasoning-service-company-drives)
+- [Free Certifications & Courses](#free-certifications--courses)
+- [Competitive Programming Judges](#competitive-programming-judges)
+
+**Practice & Prepare**
+- [Mock Interview Platforms](#mock-interview-platforms)
+- [Interview Experience Repositories](#interview-experience-repositories)
+- [Resume & Portfolio Tools](#resume--portfolio-tools)
+
+**Find Opportunities**
 - [Hackathon Aggregator Platforms](#hackathon-aggregator-platforms)
-- [Flagship Company & Government Hackathons](#flagship-company-government-hackathons)
+- [Flagship Company & Government Hackathons](#flagship-company--government-hackathons)
 - [Elite Student-Run Hackathons (US/Canada)](#elite-student-run-hackathons-uscanada)
-- [Blockchain / Web3 Hackathons](#blockchain-web3-hackathons)
-- [Data Science & ML Competition Platforms](#data-science-ml-competition-platforms)
+- [Blockchain / Web3 Hackathons](#blockchain--web3-hackathons)
+- [Data Science & ML Competition Platforms](#data-science--ml-competition-platforms)
 - [Open Source Programs](#open-source-programs)
+
+**Apply**
 - [Mass Hiring Drives (India)](#mass-hiring-drives-india)
 - [Job Application Platforms](#job-application-platforms)
+
+**Ongoing Support**
+- [Communities](#communities)
+
+---
+
+## DSA Practice Sheets & Resources
+
+Structured problem lists for interview prep, roughly ordered from "start here" to "supplementary."
+
+| Sheet / Resource | Link | Creator | Problem Count | Best For | Format |
+|---|---|---|---|---|---|
+| Striver's A2Z DSA Course Sheet | [takeuforward.org](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) | Raj Vikramaditya (Striver / TakeUForward) | ~450 problems, 18 steps | Complete beginner-to-advanced roadmap, most structured of the free sheets | Free website, topic-wise with video lectures |
+| Striver's SDE Sheet | [takeuforward.org](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) | Raj Vikramaditya (Striver) | 191 problems | Focused revision before interviews, not a first-learn resource | Free website, category-wise |
+| NeetCode 150 | [neetcode.io/practice](https://neetcode.io/practice/practice/neetcode150) | Navdeep Singh (NeetCode) | 150 problems | Pattern-based prep, excellent free video explanations for every problem | Free website + YouTube, roadmap view |
+| NeetCode All (Blind 75 successor) | [neetcode.io/practice](https://neetcode.io/practice/practice/blind75) | NeetCode | 75 / 150 / 250 tiers | Quick high-yield prep (75) up to exhaustive coverage (250) | Free website, filterable |
+| Love Babbar DSA Sheet (450) | [GitHub mirror](https://github.com/viren-sureja/Love-Babbar-450) | Love Babbar (CodeHelp) | 450 problems | Popular in India, especially for service-based company prep (TCS, Infosys, Wipro, etc.) | Community-maintained sheet/repo (original Google Sheet has moved around — GitHub mirrors are the most stable link) |
+| Apna College DSA Sheet | [GitHub mirror](https://github.com/topics/apna-college-dsa-sheet) | Shradha Khapra & Aman Dhattarwal (Apna College) | ~400 problems | Beginner-friendly, company-tagged problems, pairs with Apna College's free YouTube DSA course | Google Sheet + YouTube |
+| Blind 75 | [LeetCode list](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions) | Compiled by ex-Facebook engineer (Yangshun Tay's list popularized it) | 75 problems | The original minimal "high-yield" interview list; good if short on time | LeetCode discussion list |
+| Grind 75 | [grind75.com](https://www.grind75.com/) | Made by the same author as Blind 75 | 75–169 (adjustable) | Blind 75 successor with a built-in scheduler based on your timeline | Free interactive website |
+| GeeksforGeeks 160 / Must-Do sheets | [geeksforgeeks.org/gfg160](https://www.geeksforgeeks.org/courses/gfg-160-series) | GeeksforGeeks | Varies (Top 100 / Must-Do 79 / etc.) | Strong theory explanations alongside problems, good for concept gaps | Free website |
+| AlgoExpert | [algoexpert.io](https://www.algoexpert.io/) | Clément Mihailescu | 190+ problems | Paid but polished — video walkthroughs, multi-language solutions, mock interviews | Paid platform |
+| Sean Prashad's LeetCode Patterns | [GitHub](https://github.com/seanprashad/leetcode-patterns) | Sean Prashad | ~160 problems, filterable | Filtering LeetCode by underlying pattern instead of topic tag | Free interactive site |
+| InterviewBit Programming | [interviewbit.com](https://www.interviewbit.com/courses/programming/) | InterviewBit (Scaler) | Structured modules | Free, guided course structure alongside problems | Free website |
+
+> 📝 A few of these sheets (Love Babbar, Apna College) started life as a YouTuber's Google Sheet and have since been taken down, moved, or gone semi-official — community GitHub mirrors are currently the most reliable links. Worth re-verifying the link periodically.
+
+---
+
+## CS Fundamentals (OS / DBMS / CN / OOP)
+
+Heavily tested in Indian service-company technical rounds (TCS, Infosys, Wipro, Cognizant, etc.) alongside DSA.
+
+| Resource | Link | Focus | Format |
+|---|---|---|---|
+| GeeksforGeeks GATE/CS Fundamentals | [geeksforgeeks.org/gate-cs-notes](https://www.geeksforgeeks.org/gate-cs-notes-gq/) | OS, DBMS, CN, OOP theory notes | Free website |
+| Knowledge Gate (YouTube) | [youtube.com/@KnowledgeGate](https://www.youtube.com/@KnowledgeGate) | OS, DBMS, CN, TOC, COA — Hindi/English | Free video lectures, popular for Indian campus placements |
+| CS50 (Harvard) | [cs50.harvard.edu](https://cs50.harvard.edu/) | Broad CS fundamentals, intro to systems thinking | Free course, certificate paid |
+| NPTEL | [nptel.ac.in](https://nptel.ac.in/) | OS, DBMS, CN, and most core CS subjects | Free video courses (IIT faculty), paid certification |
+
+---
+
+## System Design Resources
+
+| Resource | Link | Creator | Cost | Best For |
+|---|---|---|---|---|
+| System Design Primer | [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Donne Martin | Free | The most-starred (300K+) system design repo — foundational concepts, sample problems, Anki flashcards |
+| ByteByteGo / system-design-101 | [github.com/ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Alex Xu (ByteByteGo) | Free repo (paid newsletter/course also available) | Visual, diagram-heavy explanations of core concepts |
+| Grokking the System Design Interview | [designgurus.io](https://www.designgurus.io/course/grokking-the-system-design-interview) | DesignGurus (Educative) | Paid | Structured, interview-pattern-based course, most-recommended paid resource |
+| InterviewReady by Gaurav Sen | [interviewready.io](https://www.interviewready.io/) | Gaurav Sen | Free YouTube + paid course | HLD + LLD prep, popular in India |
+| Codemia | [codemia.io](https://codemia.io/) | Codemia | Freemium | LeetCode-style active practice for system design with AI-reviewed solutions |
+| Awesome Scalability | [github.com/binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | Binh Nguyen | Free | Deep-dive curated list of real-world engineering blog posts on scale |
+
+---
+
+## Aptitude & Verbal Reasoning (Service-Company Drives)
+
+Most mass-hiring drives (TCS NQT, Infosys, Wipro, Capgemini, etc. — see [Mass Hiring Drives](#mass-hiring-drives-india)) gate candidates on an aptitude/verbal round before the coding round.
+
+| Resource | Link | Focus | Format |
+|---|---|---|---|
+| IndiaBix | [indiabix.com](https://www.indiabix.com/) | Quantitative aptitude, logical reasoning, verbal ability | Free, topic-wise practice with explanations |
+| PrepInsta | [prepinsta.com](https://prepinsta.com/) | Company-specific aptitude patterns + previous papers | Free + paid content |
+| GeeksforGeeks Aptitude | [geeksforgeeks.org/aptitude](https://www.geeksforgeeks.org/aptitude/quantitative-aptitude/) | Quant, logical, verbal | Free, practice-question format |
+| Testbook | [testbook.com](https://testbook.com/) | Mock tests + aptitude practice, company-drive specific | Free + paid subscription |
+
+---
+
+## Free Certifications & Courses
+
+| Platform | Link | Focus |
+|---|---|---|
+| freeCodeCamp | [freecodecamp.org](https://www.freecodecamp.org/) | Full-stack web dev, DSA, ML — free certifications |
+| CS50 (Harvard) | [cs50.harvard.edu](https://cs50.harvard.edu/) | Intro to CS, broadly respected as a resume line |
+| Coursera (audit mode) | [coursera.org](https://www.coursera.org/) | University-taught CS courses, free to audit without certificate |
+| NPTEL | [nptel.ac.in](https://nptel.ac.in/) | IIT/IISc-taught courses, free with paid certification option |
+
+---
+
+## Competitive Programming Judges
+
+(CodeForces and CodeChef are already listed under [Open Source Programs → Seasonal Programs](#seasonal-programs--competitions) and the [hackathon list](#hackathon-aggregator-platforms) respectively — these round out the rest.)
+
+| Judge | Link | Known For |
+|---|---|---|
+| CSES Problem Set | [cses.fi/problemset](https://cses.fi/problemset/) | Tight, well-curated problem set covering all core CP topics |
+| AtCoder | [atcoder.jp](https://atcoder.jp/) | High-quality Japanese CP platform, popular for rating grinding |
+| SPOJ | [spoj.com](https://www.spoj.com/) | One of the oldest online judges, huge problem archive |
+| Codeforces | [codeforces.com](https://codeforces.com/) | Most active global CP community, frequent rated contests |
+
+---
+
+## Mock Interview Platforms
+
+| Platform | Link | Format | Cost |
+|---|---|---|---|
+| Pramp | [pramp.com](https://www.pramp.com/) | Peer-to-peer mock interviews (you interview each other) | Free |
+| interviewing.io | [interviewing.io](https://interviewing.io/) | Anonymous mock interviews with real engineers from top companies | Free + paid |
+| Exponent | [tryexponent.com](https://www.tryexponent.com/) | Mock interviews, courses — covers coding, system design, behavioral | Paid, some free content |
+| Excalidraw (for practicing system design whiteboarding) | [excalidraw.com](https://excalidraw.com/) | Free virtual whiteboard, useful for remote system-design mock interviews | Free |
+
+---
+
+## Interview Experience Repositories
+
+Read real candidates' rounds and questions before you interview.
+
+| Resource | Link | Focus |
+|---|---|---|
+| GeeksforGeeks Interview Experiences | [geeksforgeeks.org/category/interview-experiences](https://www.geeksforgeeks.org/category/interview-experiences/) | Company- and role-wise interview write-ups, India-heavy |
+| LeetCode Discuss — Interview Experience | [leetcode.com/discuss/interview-experience](https://leetcode.com/discuss/interview-experience) | Global, company-tagged interview threads |
+| Glassdoor Interview Reviews | [glassdoor.co.in/Interview](https://www.glassdoor.co.in/Interview/index.htm) | Company-specific interview questions + difficulty ratings |
+| Levels.fyi | [levels.fyi](https://www.levels.fyi/) | Compensation data by company/level — useful once you have an offer to negotiate | Free (some data paywalled) |
+
+---
+
+## Resume & Portfolio Tools
+
+| Tool | Link | What It Does |
+|---|---|---|
+| Overleaf | [overleaf.com](https://www.overleaf.com/) | Online LaTeX editor — most tech resume templates (e.g., Jake's Resume) are LaTeX-based |
+| Jake's Resume Template | [github.com/jakegut/resume](https://github.com/jakegut/resume) | The most widely used free LaTeX tech resume template |
+| Rezi / Teal | [rezi.ai](https://www.rezi.ai/) · [tealhq.com](https://www.tealhq.com/) | AI resume builders with ATS-compatibility checks |
+| Codolio | [codolio.com](https://codolio.com/) | Auto-generates a coding portfolio from your LeetCode/GFG/Codeforces profiles, tracks DSA sheet progress |
 
 ---
 
@@ -124,8 +264,6 @@ Independently organized, MLH-sanctioned university hackathons — competitive to
 | Processing Foundation Fellowships | [processingfoundation.org](https://processingfoundation.org/fellowships) | Stipend | Annual | Open to all | Art, tech, education |
 | Free Software Foundation Internship | [fsf.org/volunteer](https://www.fsf.org/volunteer/internships) | No | Multiple batches | Open to all | Free software movement |
 
----
-
 ### Seasonal Programs & Competitions
 
 | Name | Link | Rewards | Timeline | Eligibility | Focus |
@@ -139,8 +277,6 @@ Independently organized, MLH-sanctioned university hackathons — competitive to
 | Facebook Hacker Cup | [facebook.com/codingcompetitions](https://www.facebook.com/codingcompetitions/hacker-cup/) | Cash prizes | Annual | Open to all | Competitive programming |
 | ACM ICPC | [icpc.global](https://icpc.global/) | Medals, prizes | Annual | University students | Competitive programming |
 | MIT Battle of Codes | [battleofcodes.mit.edu](https://battleofcodes.mit.edu/) | Prizes | Annual | University students | Competitive programming |
-
----
 
 ### University-Specific / India-Focused Programs
 
@@ -192,6 +328,17 @@ Independently organized, MLH-sanctioned university hackathons — competitive to
 | Glassdoor | [glassdoor.co.in](https://www.glassdoor.co.in/Job/index.htm) | Global (India portal) | Job search + company reviews |
 | We Work Remotely | [weworkremotely.com](https://weworkremotely.com/) | Global | Remote jobs |
 | Remote OK | [remoteok.com](https://remoteok.com/) | Global | Remote jobs |
+
+---
+
+## Communities
+
+| Community | Link | Focus |
+|---|---|---|
+| r/csMajors | [reddit.com/r/csMajors](https://www.reddit.com/r/csMajors/) | US-centric CS student career discussion |
+| r/leetcode | [reddit.com/r/leetcode](https://www.reddit.com/r/leetcode/) | DSA prep discussion, problem help |
+| r/developersIndia | [reddit.com/r/developersIndia](https://www.reddit.com/r/developersIndia/) | India-specific tech career discussion, salary threads, drive updates |
+| Blind (Teamblind) | [teamblind.com](https://www.teamblind.com/) | Anonymous, company-verified professional discussion — layoffs, comp, interview threads |
 
 ---
 

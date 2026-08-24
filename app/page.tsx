@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { Star } from "lucide-react";
+import { Star, GitPullRequest } from "lucide-react";
 
 function slugify(text: string) {
   return text
@@ -11,6 +11,55 @@ function slugify(text: string) {
     .replace(/\s+/g, "-")
     .trim();
 }
+
+const REPO_URL =
+  "https://github.com/neelamnagarajgithub/Software-Engineer-Hackathons-and-Hiring-and-OpenSource";
+
+/* Sidebar nav, grouped to mirror the README's own section order:
+   Learn & Build → Practice & Prepare → Find Opportunities → Apply → Community */
+const NAV_GROUPS: { label: string; links: { href: string; text: string }[] }[] = [
+  {
+    label: "Learn & Build",
+    links: [
+      { href: "#dsa-practice-sheets-resources", text: "DSA Sheets" },
+      { href: "#cs-fundamentals-os-dbms-cn-oop", text: "CS Fundamentals" },
+      { href: "#system-design-resources", text: "System Design" },
+      { href: "#aptitude-verbal-reasoning-service-company-drives", text: "Aptitude & Verbal" },
+      { href: "#free-certifications-courses", text: "Free Certifications" },
+      { href: "#competitive-programming-judges", text: "CP Judges" },
+    ],
+  },
+  {
+    label: "Practice & Prepare",
+    links: [
+      { href: "#mock-interview-platforms", text: "Mock Interviews" },
+      { href: "#interview-experience-repositories", text: "Interview Experiences" },
+      { href: "#resume-portfolio-tools", text: "Resume & Portfolio" },
+    ],
+  },
+  {
+    label: "Find Opportunities",
+    links: [
+      { href: "#hackathon-aggregator-platforms", text: "Hackathon Platforms" },
+      { href: "#flagship-company-government-hackathons", text: "Company & Government" },
+      { href: "#elite-student-run-hackathons-uscanada", text: "Student Hackathons" },
+      { href: "#blockchain-web3-hackathons", text: "Web3" },
+      { href: "#data-science-ml-competition-platforms", text: "Data & ML" },
+      { href: "#open-source-programs", text: "Open Source" },
+    ],
+  },
+  {
+    label: "Apply",
+    links: [
+      { href: "#mass-hiring-drives-india", text: "Mass Hiring" },
+      { href: "#job-application-platforms", text: "Job Platforms" },
+    ],
+  },
+  {
+    label: "Community",
+    links: [{ href: "#communities", text: "Communities" }],
+  },
+];
 
 export default function Home() {
   const readmePath = path.join(process.cwd(), "README.md");
@@ -38,68 +87,70 @@ export default function Home() {
             </div>
           </a>
 
-          <a
-            href="https://github.com/neelamnagarajgithub/Software-Engineer-Hackathons-and-Hiring-and-OpenSource"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3.5 py-2 text-sm font-medium text-zinc-300 transition hover:border-yellow-400/30 hover:bg-yellow-400/[0.05] hover:text-white"
-          >
-            <Star
-              size={15}
-              strokeWidth={1.8}
-              className="transition group-hover:fill-yellow-400 group-hover:text-yellow-400"
-            />
-            Star on GitHub
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              href={`${REPO_URL}#-contributing`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group hidden items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3.5 py-2 text-sm font-medium text-zinc-300 transition hover:border-emerald-400/30 hover:bg-emerald-400/[0.05] hover:text-white sm:flex"
+            >
+              <GitPullRequest
+                size={15}
+                strokeWidth={1.8}
+                className="transition group-hover:text-emerald-400"
+              />
+              Contribute
+            </a>
+
+            <a
+              href={REPO_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3.5 py-2 text-sm font-medium text-zinc-300 transition hover:border-yellow-400/30 hover:bg-yellow-400/[0.05] hover:text-white"
+            >
+              <Star
+                size={15}
+                strokeWidth={1.8}
+                className="transition group-hover:fill-yellow-400 group-hover:text-yellow-400"
+              />
+              Star on GitHub
+            </a>
+          </div>
         </div>
       </header>
 
-
-
       {/* ───────────────── CONTENT ───────────────── */}
 
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[220px_minmax(0,1fr)]">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[240px_minmax(0,1fr)]">
         {/* Sidebar */}
 
         <aside className="hidden lg:block">
-          <div className="sticky top-24">
-            <p className="mb-4 text-[11px] font-semibold uppercase tracking-widest text-zinc-600">
-              On this page
-            </p>
+          <div className="sidebar-scroll sticky top-24 max-h-[calc(100vh-7rem)] space-y-7 overflow-y-auto pb-8 pr-2">
+            {NAV_GROUPS.map((group) => (
+              <div key={group.label}>
+                <p className="mb-2 px-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-600">
+                  {group.label}
+                </p>
 
-            <nav className="space-y-1 text-sm">
-              <SideLink href="#hackathon-aggregator-platforms">
-                Hackathons
-              </SideLink>
+                <nav className="space-y-1 text-sm">
+                  {group.links.map((link) => (
+                    <SideLink key={link.href} href={link.href}>
+                      {link.text}
+                    </SideLink>
+                  ))}
+                </nav>
+              </div>
+            ))}
 
-              <SideLink href="#flagship-company-government-hackathons">
-                Company & Government
-              </SideLink>
-
-              <SideLink href="#elite-student-run-hackathons-uscanada">
-                Student Hackathons
-              </SideLink>
-
-              <SideLink href="#blockchain-web3-hackathons">
-                Web3
-              </SideLink>
-
-              <SideLink href="#data-science-ml-competition-platforms">
-                Data & ML
-              </SideLink>
-
-              <SideLink href="#open-source-programs">
-                Open Source
-              </SideLink>
-
-              <SideLink href="#mass-hiring-drives-india">
-                Mass Hiring
-              </SideLink>
-
-              <SideLink href="#job-application-platforms">
-                Job Platforms
-              </SideLink>
-            </nav>
+            <a
+              href={`${REPO_URL}#-contributing`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 flex items-center gap-2 rounded-md border border-white/[0.06] px-3 py-2.5 text-sm font-medium text-zinc-400 transition hover:border-emerald-400/20 hover:bg-emerald-400/[0.04] hover:text-emerald-300"
+            >
+              <GitPullRequest size={14} strokeWidth={1.8} />
+              Suggest an addition
+            </a>
           </div>
         </aside>
 
@@ -127,10 +178,7 @@ export default function Home() {
                 const text = String(children);
 
                 return (
-                  <section
-                    id={slugify(text)}
-                    className="scroll-mt-24 pt-16"
-                  >
+                  <section id={slugify(text)} className="scroll-mt-24 pt-16">
                     <h2 className="mb-7 border-b border-white/[0.08] pb-4 text-2xl font-bold tracking-tight text-white sm:text-3xl">
                       {children}
                     </h2>
@@ -192,7 +240,7 @@ export default function Home() {
               /* ───────── TABLES ───────── */
 
               table: ({ children }) => (
-                <div className="my-8 overflow-x-auto rounded-xl border border-white/[0.08] bg-white/[0.015] shadow-2xl shadow-black/20">
+                <div className="table-scroll my-8 overflow-x-auto rounded-xl border border-white/[0.08] bg-white/[0.015] shadow-2xl shadow-black/20">
                   <table className="w-full min-w-[900px] border-collapse text-left text-sm">
                     {children}
                   </table>
@@ -253,43 +301,60 @@ export default function Home() {
 
       <footer className="border-t border-white/[0.08]">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-10 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between sm:px-8">
-          <p>
-            Built for software engineers. Maintained by the community.
-          </p>
+          <p>Built for software engineers. Maintained by the community.</p>
 
-          <a
-            href="https://github.com/YOUR_USERNAME/Software-Engineer-Hackathons-and-Hiring-and-OpenSource"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition hover:text-white"
-          >
-            Suggest an update →
-          </a>
+          <div className="flex items-center gap-5">
+            <a
+              href={`${REPO_URL}#-contributing`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              Suggest an update →
+            </a>
+
+            <a
+              href={REPO_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              View on GitHub
+            </a>
+          </div>
         </div>
       </footer>
+
+      <style>{`
+        .sidebar-scroll,
+        .table-scroll {
+          scrollbar-width: thin;
+          scrollbar-color: rgba(255, 255, 255, 0.14) transparent;
+        }
+        .sidebar-scroll::-webkit-scrollbar,
+        .table-scroll::-webkit-scrollbar {
+          width: 5px;
+          height: 6px;
+        }
+        .sidebar-scroll::-webkit-scrollbar-track,
+        .table-scroll::-webkit-scrollbar-track {
+          background: transparent;
+        }
+        .sidebar-scroll::-webkit-scrollbar-thumb,
+        .table-scroll::-webkit-scrollbar-thumb {
+          background-color: rgba(255, 255, 255, 0.14);
+          border-radius: 9999px;
+        }
+        .sidebar-scroll:hover::-webkit-scrollbar-thumb,
+        .table-scroll:hover::-webkit-scrollbar-thumb {
+          background-color: rgba(255, 255, 255, 0.28);
+        }
+      `}</style>
     </main>
   );
 }
 
 /* ───────────────── COMPONENTS ───────────────── */
-
-function Stat({
-  number,
-  label,
-}: {
-  number: string;
-  label: string;
-}) {
-  return (
-    <div className="bg-[#0c0d0f] px-5 py-6">
-      <div className="text-2xl font-bold tracking-tight text-white">
-        {number}
-      </div>
-
-      <div className="mt-1 text-xs text-zinc-500">{label}</div>
-    </div>
-  );
-}
 
 function SideLink({
   href,
