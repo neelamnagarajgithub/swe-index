@@ -1,0 +1,16 @@
+{
+  "name": "SWE Index",
+  "short_name": "SWE Index",
+  "description": "A curated index of resources for software engineers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08090a",
+  "theme_color": "#08090a",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

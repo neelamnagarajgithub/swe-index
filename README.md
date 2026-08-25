@@ -6,24 +6,30 @@ A curated, living list of hackathons, open-source programs, fresher hiring drive
 ## Table of Contents
 
 **Learn & Build Fundamentals**
-- [DSA Practice Sheets & Resources](#dsa-practice-sheets-resources)
-- [CS Fundamentals (OS / DBMS / CN / OOP)](#cs-fundamentals-os-dbms-cn-oop)
+- [Roadmaps](#roadmaps)
+- [DSA Practice Sheets & Resources](#dsa-practice-sheets--resources)
+- [CS Fundamentals (OS / DBMS / CN / OOP)](#cs-fundamentals-os--dbms--cn--oop)
 - [System Design Resources](#system-design-resources)
-- [Aptitude & Verbal Reasoning (Service-Company Drives)](#aptitude-verbal-reasoning-service-company-drives)
-- [Paid Industry Certifications (Cloud & DevOps)](#paid-industry-certifications-cloud-devops)
+- [Development Learning Tracks](#development-learning-tracks)
+- [Aptitude & Verbal Reasoning (Service-Company Drives)](#aptitude--verbal-reasoning-service-company-drives)
+- [Free Certifications & Courses](#free-certifications--courses)
+- [Paid Industry Certifications (Cloud & DevOps)](#paid-industry-certifications-cloud--devops)
 - [Competitive Programming](#competitive-programming)
+- [Competitive Programming Courses & Channels](#competitive-programming-courses--channels)
+- [Books for Software Engineers](#books-for-software-engineers)
 
 **Practice & Prepare**
 - [Mock Interview Platforms](#mock-interview-platforms)
+- [Behavioral Interview Prep](#behavioral-interview-prep)
 - [Interview Experience Repositories](#interview-experience-repositories)
 - [Resume & Portfolio Tools](#resume--portfolio-tools)
 
 **Find Opportunities**
 - [Hackathon Aggregator Platforms](#hackathon-aggregator-platforms)
-- [Flagship Company & Government Hackathons](#flagship-company-government-hackathons)
+- [Flagship Company & Government Hackathons](#flagship-company--government-hackathons)
 - [Elite Student-Run Hackathons (US/Canada)](#elite-student-run-hackathons-uscanada)
-- [Blockchain / Web3 Hackathons](#blockchain-web3-hackathons)
-- [Data Science & ML Competition Platforms](#data-science-ml-competition-platforms)
+- [Blockchain / Web3 Hackathons](#blockchain--web3-hackathons)
+- [Data Science & ML Competition Platforms](#data-science--ml-competition-platforms)
 - [Open Source Programs](#open-source-programs)
 
 **Apply**
@@ -32,6 +38,31 @@ A curated, living list of hackathons, open-source programs, fresher hiring drive
 
 **Ongoing Support**
 - [Communities](#communities)
+
+---
+
+## Roadmaps
+
+Step-by-step, visual learning paths — most people starting a new domain should open the matching roadmap.sh page first, then use the DSA/System Design/Dev Learning sections below to fill in the details.
+
+| Roadmap | Link | Covers |
+|---|---|---|
+| Frontend Developer | [roadmap.sh/frontend](https://roadmap.sh/frontend) | HTML, CSS, JS, frameworks, build tools, testing |
+| Backend Developer | [roadmap.sh/backend](https://roadmap.sh/backend) | Languages, databases, APIs, auth, caching, message queues |
+| Full Stack Developer | [roadmap.sh/full-stack](https://roadmap.sh/full-stack) | Combined frontend + backend path |
+| DevOps | [roadmap.sh/devops](https://roadmap.sh/devops) | Linux, CI/CD, containers, IaC, monitoring |
+| DevSecOps | [roadmap.sh/devsecops](https://roadmap.sh/devsecops) | Security folded into the DevOps lifecycle |
+| Cyber Security | [roadmap.sh/cyber-security](https://roadmap.sh/cyber-security) | Networking, threat modeling, pentesting basics |
+| AI Engineer | [roadmap.sh/ai-engineer](https://roadmap.sh/ai-engineer) | LLM app development, RAG, agents |
+| AI and Data Scientist | [roadmap.sh/ai-data-scientist](https://roadmap.sh/ai-data-scientist) | Classical ML, statistics, data science workflow |
+| Machine Learning | [roadmap.sh/machine-learning](https://roadmap.sh/machine-learning) | ML theory, algorithms, model building |
+| MLOps | [roadmap.sh/mlops](https://roadmap.sh/mlops) | Deploying and operating ML systems in production |
+| Data Engineer | [roadmap.sh/data-engineer](https://roadmap.sh/data-engineer) | Pipelines, warehousing, big data tooling |
+| QA / Software Testing | [roadmap.sh/qa](https://roadmap.sh/qa) | Manual + automated testing, test strategy |
+| Software Architect | [roadmap.sh/software-architect](https://roadmap.sh/software-architect) | Architecture patterns, trade-offs, leadership skills |
+| System Design | [roadmap.sh/system-design](https://roadmap.sh/system-design) | Scalability concepts, companion to the System Design section below |
+| Android Developer | [roadmap.sh/android](https://roadmap.sh/android) | Kotlin, Android SDK, app architecture |
+| AWS | [roadmap.sh/aws](https://roadmap.sh/aws) | AWS services roadmap, pairs with the certifications table above |
 
 ---
 
@@ -54,8 +85,6 @@ Structured problem lists for interview prep, roughly ordered from "start here" t
 | Sean Prashad's LeetCode Patterns | [GitHub](https://github.com/seanprashad/leetcode-patterns) | Sean Prashad | ~160 problems, filterable | Filtering LeetCode by underlying pattern instead of topic tag | Free interactive site |
 | InterviewBit Programming | [interviewbit.com](https://www.interviewbit.com/courses/programming/) | InterviewBit (Scaler) | Structured modules | Free, guided course structure alongside problems | Free website |
 
-
-
 ---
 
 ## CS Fundamentals (OS / DBMS / CN / OOP)
@@ -77,12 +106,83 @@ Heavily tested in Indian service-company technical rounds (TCS, Infosys, Wipro, 
 |---|---|---|---|---|
 | System Design Primer | [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Donne Martin | Free | The most-starred (300K+) system design repo — foundational concepts, sample problems, Anki flashcards |
 | ByteByteGo / system-design-101 | [github.com/ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Alex Xu (ByteByteGo) | Free repo (paid newsletter/course also available) | Visual, diagram-heavy explanations of core concepts |
-| Grokking the System Design Interview | [designgurus.io](https://www.designgurus.io/course/grokking-the-system-design-interview) |DesignGurus (Educative) | Paid | Structured, interview-pattern-based course, most-recommended paid resource |
-|Awesome Low Level Design |[github.com/ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design)|Ashish Pratap | Free Repo | Best for Low level Design |
-|Awesome System Design | [github.com/ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | Ashish Pratap | Free Repo | Best for High Level Design |
-| InterviewReady by Gaurav Sen | [interviewready.io](https://www.interviewready.io/course-page/system-design-course) | Gaurav Sen |  paid course + Free YouTube Course | HLD + LLD prep, popular in India |
+| Grokking the System Design Interview | [designgurus.io](https://www.designgurus.io/course/grokking-the-system-design-interview) | DesignGurus (Educative) | Paid | Structured, interview-pattern-based course, most-recommended paid resource |
+| Awesome Low Level Design | [github.com/ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) | Ashish Pratap | Free Repo | Best for Low Level Design |
+| Awesome System Design | [github.com/ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | Ashish Pratap | Free Repo | Best for High Level Design |
+| InterviewReady by Gaurav Sen | [interviewready.io](https://www.interviewready.io/course-page/system-design-course) | Gaurav Sen | Paid course + free YouTube course | HLD + LLD prep, popular in India |
 | Codemia | [codemia.io](https://codemia.io/) | Codemia | Paid | LeetCode-style active practice for system design with AI-reviewed solutions |
 | Awesome Scalability | [github.com/binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | Binh Nguyen | Free | Deep-dive curated list of real-world engineering blog posts on scale |
+
+---
+
+## Development Learning Tracks
+
+Domain-specific paths for going deep once you've picked a lane. Each track pairs a roadmap.sh path with hands-on resources and the YouTube channels people actually learn from.
+
+### Frontend
+
+| Resource | Link | Type |
+|---|---|---|
+| Frontend Roadmap (roadmap.sh) | [roadmap.sh/frontend](https://roadmap.sh/frontend) | Structured path |
+| The Odin Project — Full Stack JS | [theodinproject.com](https://www.theodinproject.com/) | Free full curriculum |
+| Frontend Masters | [frontendmasters.com](https://frontendmasters.com/) | Paid, in-depth courses |
+| Kevin Powell (YouTube) | [youtube.com/@KevinPowell](https://www.youtube.com/@KevinPowell) | CSS mastery, layout, responsive design |
+| Web Dev Simplified (YouTube) | [youtube.com/@WebDevSimplified](https://www.youtube.com/@WebDevSimplified) | JS/React concepts explained clearly |
+| Traversy Media (YouTube) | [youtube.com/@TraversyMedia](https://www.youtube.com/@TraversyMedia) | Project-based full-stack tutorials |
+| Fireship (YouTube) | [youtube.com/@Fireship](https://www.youtube.com/@Fireship) | Fast, dense overviews of frameworks/tools |
+
+### Backend
+
+| Resource | Link | Type |
+|---|---|---|
+| Backend Roadmap (roadmap.sh) | [roadmap.sh/backend](https://roadmap.sh/backend) | Structured path |
+| Roadmap.sh Backend Projects | [roadmap.sh/backend/projects](https://roadmap.sh/backend/projects) | Hands-on project ideas |
+| Hussein Nasser (YouTube) | [youtube.com/@hnasr](https://www.youtube.com/@hnasr) | Databases, networking, backend engineering deep-dives |
+| ByteByteGo (YouTube) | [youtube.com/@ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design + backend architecture, animated explainers |
+| freeCodeCamp (YouTube) | [youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp) | Full backend course-length videos (Node, Django, Spring, etc.) |
+
+### AI / Machine Learning
+
+| Resource | Link | Type |
+|---|---|---|
+| AI Engineer Roadmap (roadmap.sh) | [roadmap.sh/ai-engineer](https://roadmap.sh/ai-engineer) | LLM app dev path |
+| Machine Learning Roadmap (roadmap.sh) | [roadmap.sh/machine-learning](https://roadmap.sh/machine-learning) | Classical ML path |
+| Andrej Karpathy (YouTube) | [youtube.com/@AndrejKarpathy](https://www.youtube.com/@AndrejKarpathy) | Build neural nets/LLMs from scratch, deeply technical |
+| StatQuest with Josh Starmer (YouTube) | [youtube.com/@statquest](https://www.youtube.com/@statquest) | Statistics and ML concepts explained simply |
+| Krish Naik (YouTube) | [youtube.com/@krishnaik06](https://www.youtube.com/@krishnaik06) | ML/DL/MLOps, India-focused, project-heavy |
+| CampusX (YouTube) | [youtube.com/@campusx-official](https://www.youtube.com/@campusx-official) | Full ML/DL courses in Hindi/English |
+| fast.ai | [fast.ai](https://www.fast.ai/) | Free practical deep learning course |
+
+### Cloud
+
+| Resource | Link | Type |
+|---|---|---|
+| AWS Roadmap (roadmap.sh) | [roadmap.sh/aws](https://roadmap.sh/aws) | Structured path |
+| AWS Skill Builder | [skillbuilder.aws](https://skillbuilder.aws/) | Free official AWS training |
+| Microsoft Learn (Azure) | [learn.microsoft.com](https://learn.microsoft.com/en-us/training/azure/) | Free official Azure training, pairs with certifications above |
+| TechWorld with Nana (YouTube) | [youtube.com/@TechWorldwithNana](https://www.youtube.com/@TechWorldwithNana) | Docker, Kubernetes, DevOps, cloud fundamentals |
+| freeCodeCamp Cloud Courses (YouTube) | [youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp) | Full AWS/Azure/GCP certification prep videos |
+
+### Security
+
+| Resource | Link | Type |
+|---|---|---|
+| Cyber Security Roadmap (roadmap.sh) | [roadmap.sh/cyber-security](https://roadmap.sh/cyber-security) | Structured path |
+| TryHackMe | [tryhackme.com](https://tryhackme.com/) | Hands-on guided security labs, beginner-friendly |
+| Hack The Box | [hackthebox.com](https://www.hackthebox.com/) | Hands-on pentesting labs, more advanced |
+| NetworkChuck (YouTube) | [youtube.com/@NetworkChuck](https://www.youtube.com/@NetworkChuck) | Networking + security fundamentals, beginner-friendly |
+| The Cyber Mentor (YouTube) | [youtube.com/@TCMSecurityAcademy](https://www.youtube.com/@TCMSecurityAcademy) | Ethical hacking, pentesting courses |
+| John Hammond (YouTube) | [youtube.com/@_JohnHammond](https://www.youtube.com/@_JohnHammond) | CTF walkthroughs, malware analysis |
+| LiveOverflow (YouTube) | [youtube.com/@LiveOverflow](https://www.youtube.com/@LiveOverflow) | Binary exploitation, deep technical security content |
+
+### Testing / QA
+
+| Resource | Link | Type |
+|---|---|---|
+| QA Roadmap (roadmap.sh) | [roadmap.sh/qa](https://roadmap.sh/qa) | Structured path |
+| Test Automation University | [testautomationu.applitools.com](https://testautomationu.applitools.com/) | Free courses on Selenium, Cypress, Playwright, etc. |
+| Automation Step by Step (YouTube — Raghav Pal) | [youtube.com/@RaghavPal](https://www.youtube.com/@RaghavPal) | Selenium, API testing, automation frameworks |
+| Playwright Docs | [playwright.dev](https://playwright.dev/) | Official docs for the most popular modern E2E framework |
 
 ---
 
@@ -99,11 +199,21 @@ Most mass-hiring drives (TCS NQT, Infosys, Wipro, Capgemini, etc. — see [Mass 
 
 ---
 
- 
+## Free Certifications & Courses
+
+| Platform | Link | Focus |
+|---|---|---|
+| freeCodeCamp | [freecodecamp.org](https://www.freecodecamp.org/) | Full-stack web dev, DSA, ML — free certifications |
+| CS50 (Harvard) | [cs50.harvard.edu](https://cs50.harvard.edu/) | Intro to CS, broadly respected as a resume line |
+| Coursera (audit mode) | [coursera.org](https://www.coursera.org/) | University-taught CS courses, free to audit without certificate |
+| NPTEL | [nptel.ac.in](https://nptel.ac.in/) | IIT/IISc-taught courses, free with paid certification option |
+
+---
+
 ## Paid Industry Certifications (Cloud & DevOps)
- 
+
 The certs that actually move the needle on a resume for cloud/infra-leaning SWE roles. Prices are official vendor exam fees (USD) as of mid-2026 — regional pricing (e.g. India) is often lower; always check the vendor's official pricing page before booking.
- 
+
 | Certification | Link | Vendor | Level | Cost (Exam Fee) | Validity | Best For |
 |---|---|---|---|---|---|---|
 | AWS Certified Cloud Practitioner | [aws.amazon.com/certification](https://aws.amazon.com/certification/certified-cloud-practitioner/) | AWS | Foundational | $100 | 3 years | Absolute beginners to cloud, non-technical/PM roles too |
@@ -122,13 +232,12 @@ The certs that actually move the needle on a resume for cloud/infra-leaning SWE 
 | Google Cloud Professional Cloud Architect | [cloud.google.com/certification](https://cloud.google.com/learn/certification/cloud-architect) | Google Cloud | Professional | $200 | 2 years | One of the highest-paying cloud certs industry-wide; case-study heavy exam |
 | CKA — Certified Kubernetes Administrator | [training.linuxfoundation.org](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/) | Linux Foundation / CNCF | Professional | $445 | 2 years (1 free retake included) | Vendor-neutral, hands-on Kubernetes cluster administration — highly respected for DevOps/SRE roles |
 | CKAD — Certified Kubernetes Application Developer | [training.linuxfoundation.org](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer/) | Linux Foundation / CNCF | Professional | $445 | 2 years (1 free retake included) | Developers deploying/managing applications on Kubernetes |
- 
+
 > 💡 **Cost-saving tip:** AWS gives a 50% discount voucher on your next exam after passing one — stacking Cloud Practitioner → Associate → Professional costs meaningfully less than paying full price for each. Azure Fundamentals-level exams never expire, making AZ-900 a low-risk first cert if you're new to cloud. Prices vary by country (India pricing is typically lower in INR) — always confirm on the vendor's official page before paying.
- 
+
 ---
 
-
-## Competitive Programming 
+## Competitive Programming
 
 | Judge | Link | Known For |
 |---|---|---|
@@ -136,8 +245,46 @@ The certs that actually move the needle on a resume for cloud/infra-leaning SWE 
 | CSES Problem Set | [cses.fi/problemset](https://cses.fi/problemset/) | Tight, well-curated problem set covering all core CP topics |
 | AtCoder | [atcoder.jp](https://atcoder.jp/) | High-quality Japanese CP platform, popular for rating grinding |
 | SPOJ | [spoj.com](https://www.spoj.com/) | One of the oldest online judges, huge problem archive |
-| Codechef | [codechef.com](https://www.codechef.com/) | Global Coding Contests, Practice and Learn |
+| Codechef | [codechef.com](https://www.codechef.com/) | Global coding contests, practice and learn |
 
+---
+
+## Competitive Programming Courses & Channels
+
+| Resource | Link | Creator | Cost | Best For |
+|---|---|---|---|---|
+| TLE Eliminators | [tle-eliminators.com](https://tle-eliminators.com/) | Priyansh Agarwal (ICPC World Finalist, Codeforces Master, SWE @ Google) | Paid live course, 4 levels | India's most popular live CP course — leveled from absolute beginner up to 1700+ Codeforces rating, with live doubt support |
+| TLE Eliminators (YouTube) | [youtube.com/@TLE_Eliminators](https://www.youtube.com/@TLE_Eliminators) | TLE Eliminators | Free | Video editorials for Codeforces/CodeChef/LeetCode/AtCoder contests, DP series, the free "CP-31" sheet |
+| Priyansh Agarwal (YouTube) | [youtube.com/c/PriyanshAgarwal](https://www.youtube.com/c/PriyanshAgarwal/videos) | Priyansh Agarwal | Free | CP Digest series, online-assessment tips, career + CP advice |
+| Errichto (YouTube) | [youtube.com/@Errichto](https://www.youtube.com/@Errichto) | Kamil Dębowski (Errichto) — Codeforces Grandmaster | Free | Advanced algorithms, live contest solving, one of the most respected CP educators globally |
+| Errichto Algorithms (2nd channel) | [youtube.com/@ErrichtoAlgorithms](https://www.youtube.com/@ErrichtoAlgorithms) | Errichto | Free | Structured algorithm playlists, more classroom-style than the main channel |
+| CP Algorithms | [cp-algorithms.com](https://cp-algorithms.com/) | Community (E-Maxx origin) | Free | The definitive written reference for CP algorithms and data structures |
+| USACO Guide | [usaco.guide](https://usaco.guide/) | USACO community | Free | Structured CP curriculum from Bronze to Platinum, excellent even outside USACO |
+| Competitive Programmer's Handbook | [cses.fi/book/book.pdf](https://cses.fi/book/book.pdf) | Antti Laaksonen | Free PDF | The standard concise CP theory book, pairs with the CSES problem set above |
+
+---
+
+## Books for Software Engineers
+
+Not a "read all of these" list — pick based on what stage you're at. Roughly ordered from craft/fundamentals → interviews → systems → architecture.
+
+| Book | Author | Best For |
+|---|---|---|
+| The Pragmatic Programmer | David Thomas & Andrew Hunt | Foundational engineering habits and mindset — read early in your career |
+| Clean Code | Robert C. Martin | Writing readable, maintainable code; widely assigned in industry onboarding |
+| Cracking the Coding Interview | Gayle Laakmann McDowell | The classic interview-prep book — problems + interview process advice |
+| Elements of Programming Interviews | Adnan Aziz, Tsung-Hsien Lee, Amit Prakash | Denser, more rigorous alternative/companion to CTCI |
+| Competitive Programmer's Handbook | Antti Laaksonen | Free CP theory reference — see Competitive Programming Courses & Channels above |
+| The Algorithm Design Manual | Steven Skiena | Deeper algorithms reference with a practical, "how do I actually solve this" bent |
+| Designing Data-Intensive Applications (DDIA) | Martin Kleppmann | THE book on databases, distributed systems, and data infrastructure — essential for senior/system-design prep |
+| System Design Interview – Vol. 1 | Alex Xu | The most popular practical system design interview book, case-study format |
+| System Design Interview – Vol. 2 | Alex Xu | Covers more advanced/less common system design case studies |
+| Software Architecture Patterns | Mark Richards (O'Reilly) | Short, focused overview of major architecture styles (microservices, event-driven, layered, etc.) |
+| Fundamentals of Software Architecture | Mark Richards & Neal Ford | Broader, more current architecture reference than the patterns booklet above |
+| Head First Design Patterns | Eric Freeman & Elisabeth Robson | The most approachable intro to the classic Gang-of-Four design patterns |
+| Refactoring | Martin Fowler | How to safely restructure existing code — pairs well with Clean Code |
+| Grokking Algorithms | Aditya Bhargava | Visual, beginner-friendly intro to algorithms — good before tackling CTCI/EPI |
+| Effective Java | Joshua Bloch | Java-specific best practices, considered essential if you work in Java professionally |
 
 ---
 
@@ -149,6 +296,19 @@ The certs that actually move the needle on a resume for cloud/infra-leaning SWE 
 | interviewing.io | [interviewing.io](https://interviewing.io/) | Anonymous mock interviews with real engineers from top companies | Free + paid |
 | Exponent | [tryexponent.com](https://www.tryexponent.com/) | Mock interviews, courses — covers coding, system design, behavioral | Paid, some free content |
 
+---
+
+## Behavioral Interview Prep
+
+DSA and system design get most of the attention, but a shaky behavioral round sinks candidates just as often — these focus specifically on that.
+
+| Resource | Link | Focus |
+|---|---|---|
+| Dan Croitor (YouTube) | [youtube.com/@DanCroitor](https://www.youtube.com/@DanCroitor) | Ex-Google/Meta recruiter perspective — STAR method, resume, behavioral rounds |
+| Self Made Millennial (YouTube) | [youtube.com/@selfmademillennial](https://www.youtube.com/@selfmademillennial) | Answer breakdowns for the most common behavioral questions |
+| CareerVidz — Linda Raynier (YouTube) | [youtube.com/@LindaRaynier](https://www.youtube.com/@LindaRaynier) | Interview storytelling, confidence, and communication coaching |
+| Exponent Behavioral Guide | [tryexponent.com/blog/behavioral-interview-questions](https://www.tryexponent.com/blog/behavioral-interview-questions) | Tech-specific behavioral question bank with sample answers |
+| Amazon Leadership Principles (official) | [amazon.jobs/content/en/our-workplace/leadership-principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles) | Essential prep if interviewing at Amazon — every behavioral question maps to one of these |
 
 ---
 
@@ -161,7 +321,7 @@ Read real candidates' rounds and questions before you interview.
 | GeeksforGeeks Interview Experiences | [geeksforgeeks.org/category/interview-experiences](https://www.geeksforgeeks.org/category/interview-experiences/) | Company- and role-wise interview write-ups, India-heavy |
 | LeetCode Discuss — Interview Experience | [leetcode.com/discuss/interview-experience](https://leetcode.com/discuss/interview-experience) | Global, company-tagged interview threads |
 | Glassdoor Interview Reviews | [glassdoor.co.in/Interview](https://www.glassdoor.co.in/Interview/index.htm) | Company-specific interview questions + difficulty ratings |
-| Levels.fyi | [levels.fyi](https://www.levels.fyi/) | Compensation data by company/level — useful once you have an offer to negotiate | Free (some data paywalled) |
+| Levels.fyi | [levels.fyi](https://www.levels.fyi/) | Compensation data by company/level — useful once you have an offer to negotiate |
 
 ---
 
@@ -172,10 +332,10 @@ Read real candidates' rounds and questions before you interview.
 | Overleaf | [overleaf.com](https://www.overleaf.com/) | Online LaTeX editor — most tech resume templates (e.g., Jake's Resume) are LaTeX-based |
 | Jake's Resume Template | [github.com/jakegut/resume](https://github.com/jakegut/resume) | The most widely used free LaTeX tech resume template |
 | Rezi / Teal | [rezi.ai](https://www.rezi.ai/) · [tealhq.com](https://www.tealhq.com/) | AI resume builders with ATS-compatibility checks |
-| Resume Worded Targeted Resume | [https://resumeworded.com/targeted-resume](https://resumeworded.com/targeted-resume)  | Provides the Resume score for the provided job descriptions offers free scans per daily/monthly basis
+| Resume Worded Targeted Resume | [resumeworded.com/targeted-resume](https://resumeworded.com/targeted-resume) | Provides a resume score against a specific job description, free scans on a daily/monthly basis |
 | Codolio | [codolio.com](https://codolio.com/) | Auto-generates a coding portfolio from your LeetCode/GFG/Codeforces profiles, tracks DSA sheet progress |
-| Excalidraw | [excalidraw.com](https://excalidraw.com/) | Free virtual whiteboard, useful for remote system-design mock interviews 
-| Eraser IO | [eraser.io](https://www.eraser.io/) | Provides upto 3 Free Virtual Boards , has AI features to create ER Diagrmas, System Designs 
+| Excalidraw | [excalidraw.com](https://excalidraw.com/) | Free virtual whiteboard, useful for remote system-design mock interviews |
+| Eraser IO | [eraser.io](https://www.eraser.io/) | Up to 3 free virtual boards, AI features to generate ER diagrams and system designs |
 
 ---
 
@@ -225,8 +385,6 @@ Platforms that list many hackathons/contests from other organizers — start her
 | Uber Global Hackathon | [uberhackathon.devpost.com](https://uberhackathon.devpost.com/) | Uber | Periodic | Developers/students (varies by edition) | Prizes vary by edition | Online/in-person |
 | Atlassian CodeGeist | [atlassian.com/company/careers](https://www.atlassian.com/company/careers/earlycareers) | Atlassian | Annual | Developers building Atlassian Marketplace apps | Cash prizes | Online |
 | HackWithInfy | Check [infosys.com/careers](https://www.infosys.com/careers/) | Infosys | Discontinued/on hold in recent cycles — confirm current status | Formerly: engineering students | Formerly: cash prizes + job offers | Formerly: online, multi-round |
-
-
 
 ---
 
