@@ -522,16 +522,27 @@ Independently organized, MLH-sanctioned university hackathons — competitive to
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome! If you'd like to add a new problem, improve existing content, or fix errors:
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Submit a pull request
 
-Please make sure to update Readme files and documentation as appropriate.
+## 🤝 Contributing
+
+SWE Index is community-maintained. If you find a useful opportunity, discover outdated information, spot a broken link, or want to improve the website, contributions are welcome.
+
+Before contributing, please read the **[Contributing Guide](CONTRIBUTING.md)** for:
+
+- Adding new opportunities
+- Updating outdated information
+- Reporting incorrect or broken links
+- Website and documentation contributions
+- Pull request guidelines
+- Commit conventions
+- Contribution standards
+
+If you find incorrect or outdated information but don't want to make the change yourself, you can also **[open an issue](https://github.com/neelamnagarajgithub/swe-index/issues/new/choose)**.
+
+If SWE Index helps you, consider giving the repository a ⭐ and sharing it with other students and software engineers.
 
 ---
 
-If you find this resource helpful, please give it a star and share it with others!
+## 📄 License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).

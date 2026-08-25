@@ -229,7 +229,7 @@ export default function SiteShell({ markdown }: { markdown: string }) {
             </a>
 
             <a
-              href={`${REPO_URL}#-contributing`}
+              href={`https://github.com/neelamnagarajgithub/swe-index/issues/new/choose`}
               target="_blank"
               rel="noopener noreferrer"
               className="group hidden items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3.5 py-2 text-sm font-medium text-zinc-300 transition hover:border-emerald-400/30 hover:bg-emerald-400/[0.05] hover:text-white sm:flex"
