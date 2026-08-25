@@ -4,8 +4,7 @@ name: Broken Link
 about: Report a broken, dead, or incorrect link
 title: "[Broken Link] "
 labels: "bug, link"
-assignees: ""
--------------
+---
 
 ## Broken Link
 

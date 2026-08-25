@@ -4,8 +4,7 @@ name: New Opportunity
 about: Suggest a hackathon, internship, hiring drive, open-source program, competition, or similar opportunity
 title: "[New Opportunity] "
 labels: "new-opportunity"
-assignees: ""
--------------
+---
 
 ## Opportunity
 

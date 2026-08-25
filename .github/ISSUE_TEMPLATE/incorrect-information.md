@@ -4,8 +4,7 @@ name: Incorrect Information
 about: Report outdated, inaccurate, or misleading information
 title: "[Incorrect Information] "
 labels: "bug, accuracy"
-assignees: ""
--------------
+---
 
 ## Affected Resource
 
