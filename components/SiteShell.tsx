@@ -76,7 +76,6 @@ const NAV_GROUPS: { label: string; links: { href: string; text: string }[] }[] =
     label: "Ongoing Support",
     links: [
       { href: "#communities", text: "Communities" },
-      { href: "#contributing", text: "Contributing" },
     ],
   },
 ];
