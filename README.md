@@ -6,11 +6,12 @@ A curated, living list of hackathons, open-source programs, fresher hiring drive
 ## Table of Contents
 
 **Learn & Build Fundamentals**
-- [DSA Practice Sheets & Resources](#dsa-practice-sheets--resources)
-- [CS Fundamentals (OS / DBMS / CN / OOP)](#cs-fundamentals-os--dbms--cn--oop)
+- [DSA Practice Sheets & Resources](#dsa-practice-sheets-resources)
+- [CS Fundamentals (OS / DBMS / CN / OOP)](#cs-fundamentals-os-dbms-cn-oop)
 - [System Design Resources](#system-design-resources)
-- [Aptitude & Verbal Reasoning (Service-Company Drives)](#aptitude--verbal-reasoning-service-company-drives)
-- [Free Certifications & Courses](#free-certifications--courses)
+- [Aptitude & Verbal Reasoning (Service-Company Drives)](#aptitude-verbal-reasoning-service-company-drives)
+- [Free Certifications & Courses](#free-certifications-courses)
+- [Paid Industry Certifications (Cloud & DevOps)](#paid-industry-certifications-cloud-devops)
 - [Competitive Programming Judges](#competitive-programming-judges)
 
 **Practice & Prepare**
@@ -20,10 +21,10 @@ A curated, living list of hackathons, open-source programs, fresher hiring drive
 
 **Find Opportunities**
 - [Hackathon Aggregator Platforms](#hackathon-aggregator-platforms)
-- [Flagship Company & Government Hackathons](#flagship-company--government-hackathons)
+- [Flagship Company & Government Hackathons](#flagship-company-government-hackathons)
 - [Elite Student-Run Hackathons (US/Canada)](#elite-student-run-hackathons-uscanada)
-- [Blockchain / Web3 Hackathons](#blockchain--web3-hackathons)
-- [Data Science & ML Competition Platforms](#data-science--ml-competition-platforms)
+- [Blockchain / Web3 Hackathons](#blockchain-web3-hackathons)
+- [Data Science & ML Competition Platforms](#data-science-ml-competition-platforms)
 - [Open Source Programs](#open-source-programs)
 
 **Apply**
