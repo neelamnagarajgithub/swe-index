@@ -148,7 +148,7 @@ The certs that actually move the needle on a resume for cloud/infra-leaning SWE 
 | Pramp | [pramp.com](https://www.pramp.com/) | Peer-to-peer mock interviews (you interview each other) | Free |
 | interviewing.io | [interviewing.io](https://interviewing.io/) | Anonymous mock interviews with real engineers from top companies | Free + paid |
 | Exponent | [tryexponent.com](https://www.tryexponent.com/) | Mock interviews, courses — covers coding, system design, behavioral | Paid, some free content |
-| Excalidraw (for practicing system design whiteboarding) | [excalidraw.com](https://excalidraw.com/) | Free virtual whiteboard, useful for remote system-design mock interviews | Free |
+
 
 ---
 
@@ -172,7 +172,10 @@ Read real candidates' rounds and questions before you interview.
 | Overleaf | [overleaf.com](https://www.overleaf.com/) | Online LaTeX editor — most tech resume templates (e.g., Jake's Resume) are LaTeX-based |
 | Jake's Resume Template | [github.com/jakegut/resume](https://github.com/jakegut/resume) | The most widely used free LaTeX tech resume template |
 | Rezi / Teal | [rezi.ai](https://www.rezi.ai/) · [tealhq.com](https://www.tealhq.com/) | AI resume builders with ATS-compatibility checks |
+| Resume Worded Targeted Resume | [https://resumeworded.com/targeted-resume](https://resumeworded.com/targeted-resume)  | Provides the Resume score for the provided job descriptions offers free scans per daily/monthly basis
 | Codolio | [codolio.com](https://codolio.com/) | Auto-generates a coding portfolio from your LeetCode/GFG/Codeforces profiles, tracks DSA sheet progress |
+| Excalidraw | [excalidraw.com](https://excalidraw.com/) | Free virtual whiteboard, useful for remote system-design mock interviews 
+| Eraser IO | [eraser.io](https://www.eraser.io/) | Provides upto 3 Free Virtual Boards , has AI features to create ER Diagrmas, System Designs 
 
 ---
 
