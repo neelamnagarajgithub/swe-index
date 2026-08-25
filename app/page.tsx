@@ -26,9 +26,8 @@ const NAV_GROUPS: { label: string; links: { href: string; text: string }[] }[] =
       { href: "#cs-fundamentals-os-dbms-cn-oop", text: "CS Fundamentals" },
       { href: "#system-design-resources", text: "System Design" },
       { href: "#aptitude-verbal-reasoning-service-company-drives", text: "Aptitude & Verbal" },
-      { href: "#free-certifications-courses", text: "Free Certifications" },
       { href: "#paid-industry-certifications-cloud-devops", text: "Paid Certifications" },
-      { href: "#competitive-programming-judges", text: "CP Judges" },
+      { href: "#competitive-programming", text: "Competitive Programming" },
     ],
   },
   {

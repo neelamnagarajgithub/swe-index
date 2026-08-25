@@ -10,9 +10,8 @@ A curated, living list of hackathons, open-source programs, fresher hiring drive
 - [CS Fundamentals (OS / DBMS / CN / OOP)](#cs-fundamentals-os-dbms-cn-oop)
 - [System Design Resources](#system-design-resources)
 - [Aptitude & Verbal Reasoning (Service-Company Drives)](#aptitude-verbal-reasoning-service-company-drives)
-- [Free Certifications & Courses](#free-certifications-courses)
 - [Paid Industry Certifications (Cloud & DevOps)](#paid-industry-certifications-cloud-devops)
-- [Competitive Programming Judges](#competitive-programming-judges)
+- [Competitive Programming](#competitive-programming)
 
 **Practice & Prepare**
 - [Mock Interview Platforms](#mock-interview-platforms)
@@ -100,16 +99,6 @@ Most mass-hiring drives (TCS NQT, Infosys, Wipro, Capgemini, etc. — see [Mass 
 
 ---
 
-## Free Certifications & Courses
- 
-| Platform | Link | Focus |
-|---|---|---|
-| freeCodeCamp | [freecodecamp.org](https://www.freecodecamp.org/) | Full-stack web dev, DSA, ML — free certifications |
-| CS50 (Harvard) | [cs50.harvard.edu](https://cs50.harvard.edu/) | Intro to CS, broadly respected as a resume line |
-| Coursera (audit mode) | [coursera.org](https://www.coursera.org/) | University-taught CS courses, free to audit without certificate |
-| NPTEL | [nptel.ac.in](https://nptel.ac.in/) | IIT/IISc-taught courses, free with paid certification option |
- 
----
  
 ## Paid Industry Certifications (Cloud & DevOps)
  
@@ -139,7 +128,7 @@ The certs that actually move the needle on a resume for cloud/infra-leaning SWE 
 ---
 
 
-## Competitive Programming Judges
+## Competitive Programming 
 
 | Judge | Link | Known For |
 |---|---|---|
