@@ -246,7 +246,7 @@ The certs that actually move the needle on a resume for cloud/infra-leaning SWE 
 | AtCoder | [atcoder.jp](https://atcoder.jp/) | High-quality Japanese CP platform, popular for rating grinding |
 | SPOJ | [spoj.com](https://www.spoj.com/) | One of the oldest online judges, huge problem archive |
 | Codechef | [codechef.com](https://www.codechef.com/) | Global coding contests, practice and learn |
-
+| a2oj | [earthshakira.github.io/a2oj-clientside/server/Ladders.html](https://earthshakira.github.io/a2oj-clientside/server/Ladders.html) | 100 curated problems for every section of Codeforces 100 Range difference |
 ---
 
 ## Competitive Programming Courses & Channels
