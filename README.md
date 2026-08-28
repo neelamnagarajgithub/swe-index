@@ -385,7 +385,7 @@ Platforms that list many hackathons/contests from other organizers — start her
 | Uber Global Hackathon | [uberhackathon.devpost.com](https://uberhackathon.devpost.com/) | Uber | Periodic | Developers/students (varies by edition) | Prizes vary by edition | Online/in-person |
 | Atlassian CodeGeist | [atlassian.com/company/careers](https://www.atlassian.com/company/careers/earlycareers) | Atlassian | Annual | Developers building Atlassian Marketplace apps | Cash prizes | Online |
 | HackWithInfy | Check [infosys.com/careers](https://www.infosys.com/careers/) | Infosys | Discontinued/on hold in recent cycles — confirm current status | Formerly: engineering students | Formerly: cash prizes + job offers | Formerly: online, multi-round |
-
+| Cisco Ideathon |  [https://careers.cisco.com/global/en/india/etr/ideathon](https://careers.cisco.com/global/en/india/etr/ideathon) | Cisco | June - August | Final Year Undergrad Students | Internship from Jan to June + PPO| Online|
 ---
 
 ## Elite Student-Run Hackathons (US/Canada)
