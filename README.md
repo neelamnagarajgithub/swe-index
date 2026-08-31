@@ -1,4 +1,4 @@
-# SWE Index - Hackathons, Hiring and OpenSource Oppurtunities
+# SWE Index - Hackathons, Hiring, Resources and OpenSource Oppurtunities
 
 A curated, living list of hackathons, open-source programs, fresher hiring drives, and job platforms . built for software engineers and students trying to break in, level up, or land their next role.
 
