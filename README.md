@@ -333,6 +333,7 @@ Read real candidates' rounds and questions before you interview.
 | Jake's Resume Template | [github.com/jakegut/resume](https://github.com/jakegut/resume) | The most widely used free LaTeX tech resume template |
 | Rezi / Teal | [rezi.ai](https://www.rezi.ai/) · [tealhq.com](https://www.tealhq.com/) | AI resume builders with ATS-compatibility checks |
 | Resume Worded Targeted Resume | [resumeworded.com/targeted-resume](https://resumeworded.com/targeted-resume) | Provides a resume score against a specific job description, free scans on a daily/monthly basis |
+| ResumeAI | [withresumeai.com](https://withresumeai.com/) | Free ATS checker (3/day no account, 10/day free account) + AI resume builder; live candidate leaderboard (paid placement/visibility). State of ATS 2026: 738 employers, Workday 37.9% |
 | Codolio | [codolio.com](https://codolio.com/) | Auto-generates a coding portfolio from your LeetCode/GFG/Codeforces profiles, tracks DSA sheet progress |
 | Excalidraw | [excalidraw.com](https://excalidraw.com/) | Free virtual whiteboard, useful for remote system-design mock interviews |
 | Eraser IO | [eraser.io](https://www.eraser.io/) | Up to 3 free virtual boards, AI features to generate ER diagrams and system designs |
